@@ -11,7 +11,7 @@ public class daily{
             System.out.println("=====================");
             System.out.println(" 일 월 화 수 목 금 토");
 
-            // 1일 전 공백 채우기 ← 이게 없었음
+            // 1일 전 공백 채우기 
             for (int i = 0; i < iWeekday; i++){
                 System.out.printf("   ");
             }
