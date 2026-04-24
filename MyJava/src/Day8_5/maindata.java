@@ -1,5 +1,4 @@
 package Day8_5;
-
 public class maindata {
 
 	public static void main(String[] args) {
@@ -9,8 +8,8 @@ public class maindata {
 		for(int i=0; i<iPerson; i++) {
 			String name= String.format("홍길%02d",i); //이름만들기
 			int kor=(int)(Math.random()*100);	//국어점수
-			int eng = (int)(Math.random()*100);
-			int mat = (int)(Math.random()*100);
+			int eng = (int)(Math.random()*100); //영어점수
+			int mat = (int)(Math.random()*100); //수학점수
 			
 			indata.SetData(i,name,kor,eng,mat);//클래스로 넘김 값 입력//5개넘김
 		}
